@@ -4,7 +4,7 @@ Donate link: http://vaso.sma.hu/blog/banner-garden-plugin-for-wordpress/
 Tags: ad, banner, commercial, advertising, adverts, ads, widget, plugin, sidebar, banner rotation, campaign, flash, image
 Requires at least: 2.9.2
 Tested up to: 2.9.2
-Stable tag: 0.1
+Stable tag: 0.1.2
 
 
 This plugin is a campaign and banner manager for wordpress.
@@ -130,4 +130,6 @@ screenshot-6.png
 No upgrade yet
 
 == Changelog ==
-This is the first release, no change log.
+
+0.1.2
+- Fix the path of plugin.

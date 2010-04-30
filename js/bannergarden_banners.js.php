@@ -55,7 +55,7 @@
 ?>
 			jQuery.ajax({
 				type : 'POST',
-				url : '<?php echo get_bloginfo('wpurl') . '/wp-content/plugins/bannergarden/bg-plugin-ajax.php' ?>',
+				url : '<?php echo get_bloginfo('wpurl') . '/wp-content/plugins/banner-garden/bg-plugin-ajax.php' ?>',
 				data: {
 					type: type_value
 <?php
@@ -82,7 +82,7 @@
 					}							
 ?>							
 				},beforeSend : function(XMLHttpRequest) {
-					jQuery(ajax_div).html('<table><tr><td valign="bottom"><?php echo '<img src="'.WP_PLUGIN_URL.'/bannergarden/media/bannergarden-loader.gif" alt="" />';?></td><td><?php _e('Loading...','bannergarden');?></td></tr></table>');
+					jQuery(ajax_div).html('<table><tr><td valign="bottom"><?php echo '<img src="'.WP_PLUGIN_URL.'/banner-garden/media/bannergarden-loader.gif" alt="" />';?></td><td><?php _e('Loading...','bannergarden');?></td></tr></table>');
 				},success : function(data){
 					jQuery(ajax_div).html(data);
 				},

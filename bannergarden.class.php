@@ -27,8 +27,8 @@ class BannerGarden {
 		
 		$this->c_table 				= $wpdb->prefix.$this->name."_".'campaigns';
 		$this->b_table 				= $wpdb->prefix.$this->name."_".'banners';
-		$this->plugin_url 		= get_bloginfo('siteurl').'/wp-content/plugins/bannergarden';
-		$this->media_url 			= get_bloginfo('siteurl').'/wp-content/plugins/bannergarden/media';
+		$this->plugin_url 		= get_bloginfo('siteurl').'/wp-content/plugins/banner-garden';
+		$this->media_url 			= get_bloginfo('siteurl').'/wp-content/plugins/banner-garden/media';
 		$this->default_banner	= $this->media_url.'/default_banner.jpg';
 		$this->url 						= admin_url('options-general.php?page=banner_garden_page');
 		$this->msg						= '';
@@ -41,7 +41,7 @@ class BannerGarden {
 	
 	function BannerGardenInit() {
 		//Process actions
-		load_plugin_textdomain( 'bannergarden', false, 'bannergarden/localization');
+		load_plugin_textdomain( 'bannergarden', false, 'banner-garden/localization');
 		
 		switch ($this->bg_action) {
 			case "create_campaign":

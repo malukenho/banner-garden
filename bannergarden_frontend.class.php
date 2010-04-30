@@ -14,8 +14,8 @@
 			$this->plugin_dir 					= WP_PLUGIN_DIR;	
 			$this->plugin_url 					= WP_PLUGIN_URL;
 			$this->name 								= 'bannergarden';
-			$this->default_banner_path	= WP_PLUGIN_DIR."/bannergarden/media/default_banner.jpg";
-			$this->default_banner_url		= WP_PLUGIN_URL."/bannergarden/media/default_banner.jpg";
+			$this->default_banner_path	= WP_PLUGIN_DIR."/banner-garden/media/default_banner.jpg";
+			$this->default_banner_url		= WP_PLUGIN_URL."/banner-garden/media/default_banner.jpg";
 			$this->c_table 							= $wpdb->prefix.$this->name."_".'campaigns';
 			$this->b_table 							= $wpdb->prefix.$this->name."_".'banners';
 			$this->sdb 									= $options["show_default_banner"];
@@ -63,7 +63,7 @@
 			//Registering required javascripts
 			wp_enqueue_script('jquery');
 			wp_deregister_script('swfobject');
-			wp_register_script('swfobject', $this->plugin_url.'/bannergarden/js/swfobject/swfobject.js', false, '2.2',false);
+			wp_register_script('swfobject', $this->plugin_url.'/banner-garden/js/swfobject/swfobject.js', false, '2.2',false);
 			wp_enqueue_script('swfobject');
 		}
 		

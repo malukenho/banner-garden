@@ -3,7 +3,7 @@
 Plugin Name: Banner Garden
 Plugin URI: http://www.vaso.hu/blog/banner-garden-plugin-for-wordpress/
 Description: Create campaigns, add flash, picture or text Ad code, define places, and rotate the banners.
-Version: 0.1
+Version: 0.1.2
 Author: Ferenc Vasóczki
 Author URI: http://www.vaso.hu/blog/
 Disclaimer: Use at your own risk. No warranty expressed or implied is provided.
