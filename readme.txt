@@ -1,5 +1,5 @@
 === Banner Garden Plugin for Wordpress ===
-Contributors: Ferenc VasÛczki
+Contributors: Ferenc Vas√≥czki
 Donate link: http://vaso.sma.hu/blog/banner-garden-plugin-for-wordpress/
 Tags: ad, banner, commercial, advertising, adverts, ads, widget, plugin, sidebar, banner rotation, campaign, flash, image
 Requires at least: 2.9.2
@@ -86,8 +86,8 @@ So, before your WordPress engine start to render the page, the plugin is search 
 
 About the process method. The processor get out the id of the campaign. Check, is this campaign exists, if yes, check is this campaign active, and if it is active, check, is the time settings are right. If everything is all right, it check is there any banner in this campaign. If there is/are banner(s), then select one randomly, and replace the shortcode with your media.
 
-If any of above condition fails, it will show the default banner what is placed in the plugin dirs media subdirectory named ìdefault_banner.jpgî.
-This happens only, if you did not checked out the ìShow default banner if anything failsî option.
+If any of above condition fails, it will show the default banner what is placed in the plugin dirs media subdirectory named ‚Äúdefault_banner.jpg‚Äù.
+This happens only, if you did not checked out the ‚ÄúShow default banner if anything fails‚Äù option.
 
 I included a test falsh and a test image banner for you in this media subdirectory.
 
