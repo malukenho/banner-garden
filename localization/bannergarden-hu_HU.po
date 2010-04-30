@@ -1,0 +1,412 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Banner Garden\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-29 07:33+0100\n"
+"PO-Revision-Date: 2010-04-29 07:34+0100\n"
+"Last-Translator: Pako <vasoczki.ferenc@gmail.com>\n"
+"Language-Team: Ferenc Vasóczki <vasoczki.ferenc@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: D:\\Apache\\htdocs\\wordpress\\wp-content\\plugins\\bannergarden\n"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:130
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:142
+#, php-format
+msgid "This campaign is not exists. Maybe you deleted.<br /><a href=\"%1$s\"><< Go Back</a>"
+msgstr "Ez a kampány nem létezik. Talán törölted.<br /><a href=\"%1$s\"><< Vissza</a>"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:268
+msgid "Show default banner, if something fail."
+msgstr "Mutasd az alapértelmezett bannert, ha valami rosszul sül el."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:269
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:434
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:655
+msgid "Save"
+msgstr "Mentés"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:270
+msgid "If your campaign is expired, the media not found, etc..."
+msgstr "Ha a kampány lejárt, a banner nem található, stb..."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:271
+msgid "The default banner is here, so you can change it if you want:"
+msgstr "Az alapértelmzett banner elérése. Itt tudod megváltoztatni."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:272
+msgid "banner Garden default banner"
+msgstr "Banner Garden alapértelmezett banner"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:272
+msgid "Default banner."
+msgstr "Alapértelmezett banner."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:362
+msgid "Name is required"
+msgstr "Név mező szükséges"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:365
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:368
+msgid "Bad start time format"
+msgstr "Hibás kezdési idő formátum"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:372
+msgid "The start time can not be bigger then end time"
+msgstr "A kezdési idő nem lehet nagyobb mint a befejezési idő"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:392
+msgid "Create a new campaign"
+msgstr "Új kampány létrehozása"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:403
+#, php-format
+msgid ""
+"Are you sure you want to delete this campaign?\\n"
+"All the attached banners will be deleted.\\n"
+"\\n"
+"Name of campaign: %s\\n"
+"ID: %s"
+msgstr ""
+"Biztosan törölni akarod ezt a kampányt?\\n"
+"Minden hozzárendelt banner is törölésre kerül.\\n"
+"\\n"
+"Kampány neve: %s\\n"
+"ID: %s"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:413
+msgid "List banners"
+msgstr "Bannerek listázása"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:413
+msgid "Add new banner"
+msgstr "Új banner hozzáadása"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:414
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:453
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:548
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:680
+msgid "Modify"
+msgstr "Módosítás"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:415
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:549
+msgid "Delete"
+msgstr "Törlés"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:423
+msgid "<p>You have no campaign. "
+msgstr "<p>Még nincs kampányod. "
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:425
+msgid "create one</a>.</p>"
+msgstr "készíts egyet</a>.</p>"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:461
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:693
+msgid "Back to list of campaigns"
+msgstr "Vissza a kampányok listájához"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:463
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:502
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:557
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:691
+msgid "Name of campaign"
+msgstr "Kampány neve"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:465
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:958
+msgid "Start time"
+msgstr "Kezdési idő"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:466
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:468
+msgid "clear"
+msgstr "kiürít"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:467
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:959
+msgid "End time"
+msgstr "Befejezési idő"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:469
+msgid "Is Active"
+msgstr "Aktív"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:501
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:556
+msgid " << Back to campaigns"
+msgstr " << Vissza a kampányokhoz"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:503
+msgid "Create a new banner"
+msgstr "Új banner létrehozása"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:514
+#, php-format
+msgid ""
+"Are you sure you want to delete this banner?\\n"
+"\\n"
+"Name of banner: %s"
+msgstr ""
+"Biztosan törölni akarod ezt a bannert?\\n"
+"\\n"
+"Banner neve: %s"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:558
+#, php-format
+msgid "<p>You have no banner in this campaign. <a href=\"%s&bg_action=create_banner&c_id=%s\">Create one</a>.</p>"
+msgstr "<p>Még nincs bannered ebben a kampányban. <a href=\"%s&bg_action=create_banner&c_id=%s\">Addj hozzá egyet</a>.</p>"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:692
+msgid "Back to banners of "
+msgstr "Vissza a bannerekhez"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:695
+msgid "Name of banner"
+msgstr "Banner neve"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:697
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:969
+msgid "Type"
+msgstr "Típus"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:699
+msgid "Picture (gif,png,jpg)"
+msgstr "Kép (gif,png,jpg)"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:700
+msgid "Flash (swf, flv, fla)"
+msgstr "Flash (swf, flv, fla)"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:701
+msgid "Ad Code, js, HTML, etc..."
+msgstr "Ad kód, js, HTML, stb..."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:703
+msgid "Please select your type of media."
+msgstr "Válaszd ki a média típusát"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:719
+msgid "Name is required."
+msgstr "A név mező kitöltése kötelező."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:723
+msgid "Please select a media type."
+msgstr "Válassz egy média típust."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:729
+msgid "Fill the Ad Code field."
+msgstr "Töltsd ki az Ad kód mezőt"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:736
+msgid "URL of the flash movie is required."
+msgstr "A flash videó URL -jét kötelező megadod"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:740
+msgid "Invalid file extension. You can youse only swf, flv, fla"
+msgstr "Érvénytelen kiterjesztés. Csak swf, flv vagy fla lehet"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:744
+msgid "Width of the movie is required."
+msgstr "A szélességét kötelező megadnod."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:747
+msgid "The width of the movie could be only number."
+msgstr "A szélesség csak szám lehet."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:749
+msgid "The width of the movie should be more than 0px."
+msgstr "A szélességnek nagyobbnak kell lennie 0 pixelnél."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:753
+msgid "Height of the movie is required."
+msgstr "A magasságot kötelező megadod."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:756
+msgid "The heigh of the movie could be only number."
+msgstr "A magasság csak szám lehet."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:758
+msgid "The height of the movie should be more than 0px."
+msgstr "A magasságnak nagyobbnak kell lennie 0 pixelnél."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:766
+msgid "URL of the picture is required."
+msgstr "A kép URL -jét kötelező megadnod."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:776
+msgid "Invalid file extension. You can youse only jpg or jpeg, png, gif"
+msgstr "Érvénytelen kiterjesztés. Csak jpg(jpeg), png vagy gif lehet"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:781
+msgid "The format of Link URL is bad."
+msgstr "A link URL formátuma hibás."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:813
+msgid "URL of picture:"
+msgstr "Kép URL:"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:814
+msgid "Type an image url, or upload / select and image for the banner."
+msgstr "Gépeld be a kép URL -jét, vagy tölts fel / válassz ki egy képet a bannerhez."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:815
+msgid "Upload / Select Image"
+msgstr "Tölts fel / vállasz képet"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:817
+msgid "Link on click:"
+msgstr "Klikkelési link:"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:818
+msgid "Enter a URL where we redirect the user. Use full URL start with \"http://\" or \"https://\""
+msgstr "Adj meg egy URL -t, amit megnyit a böngésző, ha a felhasználó a bannerre kattint. Teljes URL -t használj \"http://\" vagy \"https://\" kezdéssel"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:821
+msgid "Open in new window?"
+msgstr "Új ablakban nyissa meg?"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:822
+msgid "Check this box if you want the link to open in a new window."
+msgstr "Kapcsold be ezt, ha azt szeretnéd, hogy új ablakban nyiljon meg."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:843
+msgid "URL of flash movie:"
+msgstr "Flash URL:"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:844
+msgid "Type a flash movie url, or upload / select and movie for the banner."
+msgstr "Add meg a flash URL címét, vagy tölts fel / válassz ki egy flash fájlt a bannerhez."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:845
+msgid "Upload / Select Flash"
+msgstr "Tölts fel / válassz Flash fájlt"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:847
+msgid "Width:"
+msgstr "Szélesség:"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:848
+msgid "Enter the width of movie in pixels. Only numbers allowed."
+msgstr "Add meg a szélességet pixelben. Csak számot adhatsz meg."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:851
+msgid "Height:"
+msgstr "Magasság:"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:852
+msgid "Enter the height of movie in pixels. Only numbers allowed."
+msgstr "Add meg a magasságot pixelben. Csak számot adhatsz meg."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:863
+msgid "Copy/Paste your ad code here:"
+msgstr "Másold be ide az Ad kódodat"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:890
+msgid "Active"
+msgstr "Aktív"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:891
+msgid "Non active"
+msgstr "Nem aktív"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:897
+msgid "No"
+msgstr "Nem"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:898
+msgid "Yes"
+msgstr "Igen"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:905
+msgid "Picture"
+msgstr "Kép"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:906
+msgid "Flash"
+msgstr "Flash"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:907
+msgid "Ad Code"
+msgstr "Ad kód"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:956
+msgid "ID"
+msgstr "ID"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:957
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:968
+msgid "Name"
+msgstr "Név"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:960
+msgid "Status"
+msgstr "Státusz"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:961
+msgid "Banners"
+msgstr "Bannerek"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:962
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:974
+msgid "Operations"
+msgstr "Műveletek"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:970
+msgid "Width"
+msgstr "Szélesség"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:971
+msgid "Height"
+msgstr "Magasság"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:972
+msgid "Link"
+msgstr "Link"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden.class.php:973
+msgid "Open link in<br />new window"
+msgstr "Link új ablakban<br />való megnyitása"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden_widget.class.php:49
+msgid "Title"
+msgstr "Cím"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden_widget.class.php:51
+msgid "ID of Campaign"
+msgstr "Kampány ID"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden_widget.class.php:65
+msgid "Please fill the ID of campign"
+msgstr "Töltsd ki az ID mezőt"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden_widget.class.php:68
+msgid "ID of campaign should be number"
+msgstr "Az ID csak szám lehet"
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/bannergarden_widget.class.php:71
+msgid "ID of campaign should be more than 0"
+msgstr "A kampány ID-nak nagyobbnak kell lennie mint 0."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/js/bannergarden_banners.js.php:85
+msgid "Loading..."
+msgstr "Betöltés..."
+
+#: D:\Apache\htdocs\wordpress\wp-content\plugins\bannergarden/js/bannergarden_banners.js.php:90
+msgid "Ajax error happened."
+msgstr "Ajax hiba történt."
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>You have no campaign. <a href=\"%s&bg_action=create_campaign\">create "
+#~ "one</a>.</p>"
+#~ msgstr ""
+#~ "<p>Még nincs kampányod. Gyerünk, és <a href=\"%s&bg_action=create_campaign"
+#~ "\">készíts egyet</a></p>"

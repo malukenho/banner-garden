@@ -1,0 +1,28 @@
+div#bg_logo {margin-top: 30px;}
+div.bg_label {padding-bottom: 3px;}
+div.bg_input {padding-bottom: 10px;}
+div.bg_error {border: 1px solid #285c00; padding: 10px; margin-bottom: 10px; }
+div#media_ajax {	 background-color: #fff; 	 -moz-border-radius: 5px; 	 -webkit-border-radius: 5px; 	 border: 1px solid #ccc; 	 padding: 10px;		 margin-bottom: 10px;}
+hr.bg_hr {height: 1px; border: 0px; background-color: #285c00; margin-top: 15px; margin-bottom: 15px;}
+
+input#adpicture {width: 400px;}
+input#adlink {width: 400px;}
+input#adflash {width: 400px;}
+input#adwidth {width: 50px;}
+input#adheight {width: 50px;}
+input#adname {width: 400px;}
+textarea.ta_adcode {width: 400px;	height: 200px;	border: 1px solid #000;	}
+
+.BGTable {border-collapse: collapse;}
+.BGTable th {font-weight: bold; border: 1px solid #000; padding: 4px;}
+.BGTable td {border: 1px solid #000; padding: 4px;}
+.BGRow1 {background-color: #fff}
+.BGRow2 {background-color: #e5f7d7}
+.BGRowActive {background-color: #285c00; color: #fff}
+.BGRowActive a {color: #fff}
+
+
+/* css for timepicker */
+#ui-timepicker-div dl{ text-align: left; }
+#ui-timepicker-div dl dt{ height: 25px; }
+#ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
