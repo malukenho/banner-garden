@@ -20,7 +20,7 @@ class BannerGarden {
 	function BannerGarden() {
 		global $wpdb;
 		$this->name 					= 'bannergarden';
-		$this->ver 						= '0.1';
+		$this->ver 						= '0.1.3';
 		$this->title 					= 'Banner Garden';
 		$this->base_dir 			= dirname (__FILE__);
 		$this->media_dir 			= $this->base_dir.BGDS.'media';
@@ -638,7 +638,7 @@ class BannerGarden {
 			case "flash":
 				$media = $wpdb->escape($_POST["adflash"]);
 				$width = $wpdb->escape($_POST["adwidth"]);
-				$height = $wpdb->escape($_POST["adwidth"]);
+				$height = $wpdb->escape($_POST["adheight"]);
 				$sql = "INSERT INTO ".$this->b_table."
 								(b_name,b_campaign,b_type,b_width,b_height,b_new_window,b_media,b_link)
 								VALUES ('".$name."',".$c_id.",'flash',".$width.",".$height.",0,'".$media."','')";

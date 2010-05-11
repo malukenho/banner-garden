@@ -1,4 +1,5 @@
 <?php
+	header('Content-type: text/html; charset=UTF-8');
 	require_once ("../../../wp-config.php");
 	load_plugin_textdomain( 'bannergarden', false, dirname( plugin_basename( __FILE__ )).'/localization' );
 	require_once ("bannergarden.class.php");
